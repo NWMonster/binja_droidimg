@@ -19,6 +19,10 @@
 
 	r2 -i ./vmlinux.py ./test/pixel_vmlinux
 
+### Binary Ninja
+
+	ln -s /path/to/droidimg ~/.binaryninja/plugins/
+
 ### Command Line
 
 	python ./vmlinux.py ./test/pixel_vmlinux
