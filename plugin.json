@@ -1,0 +1,12 @@
+{
+	"plugin": {
+		"name": "Android/Linux vmlinux loader",
+		"api": "python2",
+		"description": "load vmlinux image in binary ninja",
+		"license": {
+			"name": "MIT",
+		},
+		"version": "1.0 alpha",
+		"author": "nforest & NWMonster",
+	}
+}
