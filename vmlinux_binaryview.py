@@ -88,6 +88,7 @@ class VMLinuxView(BinaryView):
     def init(self):
         s = RunInBackground(self, "VMLinux Loading...", self.init_vmlinux)
         s.start()
+        return True
 
     def perform_is_executable(self):
         return True
